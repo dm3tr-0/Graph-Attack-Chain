@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dm3tr-0/Graph-Attack-Chain/a9ae67c18e476bfaa2cc47074dd900454e36c253/graph-attack-chain/src/app/icon.svg" alt="Logo" width="120">
+  <img src="https://raw.githubusercontent.com/dm3tr-0/Graph-Attack-Chain/a9ae67c18e476bfaa2cc47074dd900454e36c253/graph-attack-chain/src/app/icon.svg" alt="Logo" width="140">
 </p>
+
 # Graph Attack Chain — Графовый инструмент визуализации цепочек атак
 
 > Дипломная работа: «Разработка графового инструмента визуализации цепочек атак в информационной безопасности»
