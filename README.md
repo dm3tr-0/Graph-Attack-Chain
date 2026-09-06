@@ -533,7 +533,7 @@ interface GraphNode {
     type: string;       // Тип: ip | host | user | process | file | domain
     color: string;      // Цвет узла (hex)
     shape: string;      // Форма: diamond | rectangle | round-rectangle | hexagon | triangle | ellipse
-    typeLabel: string;  // Тип на русском: "IP-адрес" | "Хост" | "Пользователь" | "Процесс" | "Файл" | "Домен"
+    typeLabel: string;  // Тип: "IP-адрес" | "Хост" | "Пользователь" | "Процесс" | "Файл" | "Домен"
     isInitial?: boolean;// Флаг начального узла (исходный алерт)
     ip?: string;        // IP-адрес (для типа host)
     command?: string;   // Команда (для типа process)
@@ -554,7 +554,7 @@ interface GraphEdge {
     type: string;       // Тип: auth | process | network | file_op | registry | dns
     label: string;      // Описание ребра
     color: string;      // Цвет ребра (hex)
-    typeLabel: string;  // Тип на русском: "Аутентификация" | "Запуск процесса" | ...
+    typeLabel: string;  // Тип: "Аутентификация" | "Запуск процесса" | ...
     dash: boolean;      // Пунктирная линия
     rule_id?: string;   // ID правила Wazuh
     severity?: number;  // Уровень severity
